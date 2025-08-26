@@ -90,4 +90,10 @@
 //         console.log(matrix[i],[j])
 //     }
 // } 
-// console.log(matrix.toString) p  
+// console.log(matrix.toString)
+
+
+//splice trong JS
+let arr1 = [1,2,3,4,5]
+arr1.splice(1, 2, 6, 7)
+console.log(arr1)
