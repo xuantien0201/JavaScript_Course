@@ -94,7 +94,13 @@
 
 
 //splice trong JS
-let arr1 = [1,2,3,4,5]
-arr1.splice(1, 2, 6, 7) // xóa 2 phần tử bắt đầu từ vị trí 1 và thêm 6, 7 vào
-console.log(arr1.splice(1, 2, 6, 7) ) // in ra các phần tử bị xóa
-console.log(arr1)
+// let arr1 = [1,2,3,4,5]
+// arr1.splice(1, 2, 6, 7) // xóa 2 phần tử bắt đầu từ vị trí 1 và thêm 6, 7 vào
+// console.log(arr1.splice(1, 2, 6, 7) ) // in ra các phần tử bị xóa
+// console.log(arr1)
+
+//slice trong JS
+let arr2 = [1, 2, 3, 4, 5]
+let newArr = arr2.slice(1, 4) // cắt từ vị trí 1 đến 4 (không bao gồm vị trí 4)
+console.log(newArr)
+console.log(arr2)
