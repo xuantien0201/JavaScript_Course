@@ -9,10 +9,16 @@
 //     ram: "16GB",
 //     storage: "512GB SSD",
 // }
-// console.log(myComputer);
-// console.log(myComputer.brand)
-// console.log(myComputer.model)
+console.log(myComputer);
+console.log(myComputer.brand)
+console.log(myComputer.model)
 
-// console.log(myComputer["year"])
-// console.log(myComputer["graphics"])
+console.log(myComputer["year"])
+console.log(myComputer["graphics"])
 
+console.log(myComputer);
+console.log(myComputer.brand)
+console.log(myComputer.model)
+
+console.log(myComputer["year"])
+console.log(myComputer["graphics"])
